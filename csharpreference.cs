@@ -17,6 +17,8 @@ public class csharpreference
    {
       // Store input argument in a local variable.
       int input = i;
-      return input * input;
+      for (int j =1;j<25;j++)
+         input+=5;
+      return input;
    }
 }
